@@ -53,7 +53,7 @@ public class TestController {
 		return "ashion-master_sample/shop-cart";
 	}	
 	
-	// 2-2. modernize와 원본 view와 맵핑
+	// 2-2. modernize 원본 view와 맵핑
 	@GetMapping("/authentication-login")
 	public String authenticationLogin() {
 		return "modernize_sample/authentication-login";
@@ -64,6 +64,21 @@ public class TestController {
 		return "modernize_sample/authentication-register";
 	}	
 	
+	// 2-3. sbadminPro 원본 view와 맵핑
+	@GetMapping("/layout-fluid")
+	public String layoutFluid() {
+		return "sbadminPro_sample/layout-fluid";
+	}	
+	
+	@GetMapping("/knowledge-base-category")
+	public String knowledgeBaseCategory() {
+		return "sbadminPro_sample/knowledge-base-category";
+	}	
+	
+	@GetMapping("/knowledge-base-article")
+	public String knowledgeBaseArticle() {
+		return "sbadminPro_sample/knowledge-base-article";
+	}	
 	
 	// 3. 디자인 테스트용으로 수정한 view와 맵핑
 // (복붙해서 사용)
@@ -131,6 +146,11 @@ public class TestController {
 	@GetMapping("/notice")
 	public String notice() {
 		return "designTest/notice";
+	}	
+
+	@GetMapping("/noticeDetail")
+	public String noticeDetail() {
+		return "designTest/noticeDetail";
 	}	
 	
 	@GetMapping("/faq")
