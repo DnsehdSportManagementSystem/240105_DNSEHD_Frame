@@ -58,12 +58,12 @@
             </a></li>
         </ul>
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="/ashion/img/logo.png" alt=""></a>
+            <a href="main"><img src="/ashion/img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__auth">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
+            <a href="login">Login</a>
+            <a href="register">Register</a>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -101,8 +101,8 @@
                 <div class="col-lg-3">
                     <div class="header__right">
                         <div class="header__right__auth">
-                            <a href="#">Login</a>
-                            <a href="#">Register</a>
+                            <a href="login">Login</a>
+                            <a href="register">Register</a>
                         </div>
                         <ul class="header__right__widget">
                             <li><span class="icon_search search-switch"></span></li>

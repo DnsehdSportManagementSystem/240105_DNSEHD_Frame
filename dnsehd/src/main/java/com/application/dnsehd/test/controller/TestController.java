@@ -12,7 +12,7 @@ public class TestController {
 		return "designTest/home";
 	}
 	
-	// 2. ashion-master 원본 view와 맵핑
+	// 2-1. ashion-master 원본 view와 맵핑
 	@GetMapping("/blog")
 	public String blog() {
 		return "ashion-master_sample/blog";
@@ -53,6 +53,17 @@ public class TestController {
 		return "ashion-master_sample/shop-cart";
 	}	
 	
+	// 2-2. modernize와 원본 view와 맵핑
+	@GetMapping("/authentication-login")
+	public String authenticationLogin() {
+		return "modernize_sample/authentication-login";
+	}	
+
+	@GetMapping("/authentication-register")
+	public String authenticationRegister() {
+		return "modernize_sample/authentication-register";
+	}	
+	
 	
 	// 3. 디자인 테스트용으로 수정한 view와 맵핑
 // (복붙해서 사용)
@@ -60,6 +71,17 @@ public class TestController {
 //	public String () {
 //		return "designTest/";
 //	}	
+
+
+	@GetMapping("/register")
+	public String register() {
+		return "designTest/register";
+	}	
+	
+	@GetMapping("/login")
+	public String login() {
+		return "designTest/login";
+	}	
 
 	@GetMapping("/main")
 	public String main() {
