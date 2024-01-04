@@ -25,6 +25,17 @@
     <link rel="stylesheet" href="/ashion/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/ashion/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/ashion/css/style.css" type="text/css">
+    
+    <!-- Change Text Color and Shadow Start --> 
+    <style>
+	    .categories__text h1,
+	    .categories__text h4,
+	    .categories__text p,
+	    .categories__text a {
+	        color: #ffffff; 
+	        text-shadow: 1px 1px 1px #000000;
+	    }
+	</style>
 </head>
 
 <body>
