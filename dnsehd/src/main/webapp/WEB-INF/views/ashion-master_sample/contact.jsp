@@ -17,14 +17,14 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/ashion/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
             </a></li>
         </ul>
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="./index.html"><img src="/ashion/img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__auth">
@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="/ashion/img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-7">
@@ -179,7 +179,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-1.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-1.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -187,7 +187,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-2.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-2.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -195,7 +195,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-3.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-3.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-4.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-4.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -211,7 +211,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-5.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-5.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -219,7 +219,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="img/instagram/insta-6.jpg">
+                <div class="instagram__item set-bg" data-setbg="/ashion/img/instagram/insta-6.jpg">
                     <div class="instagram__text">
                         <i class="fa fa-instagram"></i>
                         <a href="#">@ ashion_shop</a>
@@ -238,16 +238,16 @@
             <div class="col-lg-4 col-md-6 col-sm-7">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="/ashion/img/logo.png" alt=""></a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     cilisis.</p>
                     <div class="footer__payment">
-                        <a href="#"><img src="img/payment/payment-1.png" alt=""></a>
-                        <a href="#"><img src="img/payment/payment-2.png" alt=""></a>
-                        <a href="#"><img src="img/payment/payment-3.png" alt=""></a>
-                        <a href="#"><img src="img/payment/payment-4.png" alt=""></a>
-                        <a href="#"><img src="img/payment/payment-5.png" alt=""></a>
+                        <a href="#"><img src="/ashion/img/payment/payment-1.png" alt=""></a>
+                        <a href="#"><img src="/ashion/img/payment/payment-2.png" alt=""></a>
+                        <a href="#"><img src="/ashion/img/payment/payment-3.png" alt=""></a>
+                        <a href="#"><img src="/ashion/img/payment/payment-4.png" alt=""></a>
+                        <a href="#"><img src="/ashion/img/payment/payment-5.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -315,16 +315,16 @@
 <!-- Search End -->
 
 <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/jquery.countdown.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/ashion/js/jquery-3.3.1.min.js"></script>
+<script src="/ashion/js/bootstrap.min.js"></script>
+<script src="/ashion/js/jquery.magnific-popup.min.js"></script>
+<script src="/ashion/js/jquery-ui.min.js"></script>
+<script src="/ashion/js/mixitup.min.js"></script>
+<script src="/ashion/js/jquery.countdown.min.js"></script>
+<script src="/ashion/js/jquery.slicknav.js"></script>
+<script src="/ashion/js/owl.carousel.min.js"></script>
+<script src="/ashion/js/jquery.nicescroll.min.js"></script>
+<script src="/ashion/js/main.js"></script>
 </body>
 
 </html>
