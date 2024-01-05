@@ -28,21 +28,21 @@
                 <p class="text-center">Your Healthy Exercise</p>
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">Name</label>
+                    <label for="exampleInputtext1" class="form-label">아이디</label>
                     <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                    <label for="exampleInputEmail1" class="form-label">이메일 주소</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
                   <div class="mb-4">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <label for="exampleInputPassword1" class="form-label">비밀번호</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                   </div>
-                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</a>
+                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">회원가입</a>
                   <div class="d-flex align-items-center justify-content-center">
-                    <p class="fs-4 mb-0 fw-bold">Already have an Account?</p>
-                    <a class="text-primary fw-bold ms-2" href="login">Sign In</a>
+                    <p class="fs-4 mb-0 fw-bold">이미 아이디가 있으신가요?</p>
+                    <a class="text-primary fw-bold ms-2" href="login">로그인</a>
                   </div>
                 </form>
               </div>
