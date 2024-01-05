@@ -127,11 +127,6 @@ public class TestController {
 	public String calendar() {
 		return "designTest/calendar";
 	}	
-
-	@GetMapping("/diet")
-	public String diet() {
-		return "designTest/diet";
-	}	
 	
 	@GetMapping("/review")
 	public String review() {
