@@ -227,7 +227,7 @@
 	                    <div class="footer__logo">
 	                        <a href="./index.html"><img src="/addedImg/dnsehd_small_logo.png" alt=""></a>
 	                    </div>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+	                    <p>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 	                    cilisis.</p>
 	                    <div class="footer__payment">
 	                        <a href="#"><img src="/ashion/img/payment/payment-1.png" alt=""></a>
