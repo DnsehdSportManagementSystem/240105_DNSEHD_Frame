@@ -77,7 +77,7 @@
                         <a href="main"><img src="/addedImg/dnsehd_small_logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-7 text-center">
+                <div class="col-xl-5 col-lg-6 text-center">
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="main">Home</a></li>
@@ -85,10 +85,10 @@
                             <li><a href="teacher">강사조회</a></li>
                             <li><a href="calendar">일정관리</a></li>
                             <li><a href="review">수업후기</a></li>
-                            <li><a href="notice">공지사항</a>
+                            <li>공지 & FAQ
                                 <ul class="dropdown">
                         		    <li><a href="notice">공지사항</a></li>
-                        		    <li><a href="faq">FAQ</a></li>
+                        		    <li><a href="faq">자주묻는질문</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -97,15 +97,14 @@
                 <div class="col-lg-3">
                     <div class="header__right">
                         <div class="header__right__auth">
-                            <a href="login">Login</a>
-                            <a href="register">Register</a>
+                            <a href="login">로그인</a>
+                            <a href="register">회원가입</a>
                         </div>
                         <ul class="header__right__widget">
-                            <li><span class="icon_search search-switch"></span></li>
-                            <li><a href="#"><span class="icon_heart_alt"></span>
+                            <li><a href="#"><i class="fa fa-solid fa-bell"></i>
                                 <div class="tip">2</div>
                             </a></li>
-                            <li><a href="mypage"><span class="icon_bag_alt"></span>
+                            <li><a href="mypage"><i class="fa fa-solid fa-user"></i>
                                 <div class="tip">2</div>
                             </a></li>
                         </ul>
