@@ -140,7 +140,6 @@
     </header>
     <!-- Header Section End -->
 	
-<<<<<<< HEAD
 	<!-- Calendar Section Start -->
 	<div class="main-container">
 		<div class="pd-ltr-20 xs-pd-20-10">
