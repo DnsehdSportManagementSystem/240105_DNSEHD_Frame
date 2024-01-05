@@ -148,7 +148,7 @@
 			        <div class="card mt-n300">
 			            <div class="card-header">Fluid Layout Example</div>
 			            <div class="card-body">
-			                This is a second layout option that uses the
+			                ㅇㅇㅇㅇㅇㅇㅇㅇㅇThis is a second layout option that uses the
 			                <code>.container-fluid</code>
 			                grid element for the page header and main page content containers. If you expand the width of this page, the content will keep expanding with the screen, regardless of the screen width. On smaller screens, this will look no different than the default boxed layout which uses default
 			                <code>.container</code>
