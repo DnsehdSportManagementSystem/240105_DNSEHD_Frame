@@ -54,35 +54,30 @@
                 <div class="col-lg-12">
                     <div class="shop__cart__table">
                         <table>
-                            <thead>
-                                <tr>
-                                    <th>공지번호</th>
-                                    <th>제목</th>
-                                    <th>작성자</th>
-                                    <th>작성일</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
                             <tbody>
                                 <tr>
-                                    <td class="notice__no">1</td>
+                                    <th>제목</th>
                                     <td class="notice__item">
                                         <div class="notice__item__title">
                                             <h6>신규 회원은 알림 확인 바랍니다.</h6>
                                         </div>
                                     </td>
+                                    <th>공지번호</th>
+                                    <td class="notice__no">1</td>
+                                </tr>
+                                <tr>
+                                    <th>작성자</th>
                                     <td class="notice__item">
                                         <div class="notice__item__writer">
                                             <h6>최고 관리자</h6>
                                         </div>
                                     </td>
+                                    <th>작성일</th>
                                     <td class="notice__date">2024-01-01</td>
                                 </tr>
                                 <tr>
                                 	<td colspan="4">가입을 축하드립니다.<br>관리자 ㅇㅇㅇ 입니다.<br>알림 확인 부탁드립니다.</td>
                                 </tr>
-
-
                             </tbody>
                         </table>
                     </div>
