@@ -518,7 +518,6 @@ ol {
 .banner__text h1 {
 	font-size: 80px;
 	color: #111111;
-	font-family: "Cookie", cursive;
 	margin-bottom: 15px;
 }
 
@@ -1064,14 +1063,13 @@ ol {
 }
 
 .categories__text h1 {
-	font-family: "Cookie", cursive;
 	color: #111111;
 	margin-bottom: 5px;
 }
 
 .categories__text h4 {
 	color: #111111;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .categories__text p {
