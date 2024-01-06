@@ -127,11 +127,6 @@ public class TestController {
 	public String calendar() {
 		return "designTest/calendar";
 	}	
-
-	@GetMapping("/diet")
-	public String diet() {
-		return "designTest/diet";
-	}	
 	
 	@GetMapping("/review")
 	public String review() {
@@ -163,5 +158,16 @@ public class TestController {
 		return "designTest/mypage";
 	}	
 	
+	// admin
+	// ..을 고쳐서 사용
+//	@GetMapping("/ad..")
+//	public String  admin..() {
+//		return "admin/sneat/..";
+//	}
+	
+	@GetMapping("/admain")
+	public String  adminMain() {
+		return "admin/sneat/main";
+	}
 	
 }
