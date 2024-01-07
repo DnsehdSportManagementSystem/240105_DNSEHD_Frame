@@ -1162,6 +1162,12 @@ ol {
 	overflow: hidden;
 }
 
+.product__item__trainer__pic {
+	height: 320px;
+	position: relative;
+	overflow: hidden;
+}
+
 .product__item__pic .label {
 	font-size: 12px;
 	color: #ffffff;
