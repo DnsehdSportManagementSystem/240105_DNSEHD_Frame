@@ -88,15 +88,16 @@ public class TestController {
 //		return "designTest/";
 //	}	
 
-
+	/* MemberController에 사용 완료 */
+	/*
 	@GetMapping("/register")
 	public String register() {
-		return "designTest/register";
+		return "member/register";
 	}	
 	
 	@GetMapping("/login")
 	public String login() {
-		return "designTest/login";
+		return "member/login";
 	}	
 
 	@GetMapping("/main")
@@ -163,6 +164,8 @@ public class TestController {
 	public String addReview() {
 		return "designTest/addReview";
 	}
+	
+	*/
 	
 	// 4. admin view와 맵핑
 	// ..을 고쳐서 사용
