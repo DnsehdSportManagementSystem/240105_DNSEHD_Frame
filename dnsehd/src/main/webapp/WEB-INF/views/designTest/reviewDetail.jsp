@@ -143,11 +143,9 @@
                                 <h4>수강한 수업 정보</h4>
                             </div>
                             <ul>
-                                <li><a href="#">All <span>(250)</span></a></li>
-                                <li><a href="#">Fashion week <span>(80)</span></a></li>
-                                <li><a href="#">Street style <span>(75)</span></a></li>
-                                <li><a href="#">Lifestyle <span>(35)</span></a></li>
-                                <li><a href="#">Beauty <span>(60)</span></a></li>
+                                <li><a href="#">수업명 <span>단체 필라테스 레슨</span></a></li>
+                                <li><a href="#">수강료 <span>40만원/월</span></a></li>
+                                <li><a href="#">수업 내용 <span>수준별 필라테스 레슨을 통해 근력을 향상합니다.</span></a></li>
                             </ul>
                         </div>
                         <div class="blog__sidebar__item">
