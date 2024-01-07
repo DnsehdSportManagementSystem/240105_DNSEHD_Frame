@@ -1,5 +1,6 @@
 package com.application.dnsehd.test.controller;
 
+import org.apache.jasper.tagplugins.jstl.core.If;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -168,6 +169,21 @@ public class TestController {
 	@GetMapping("/admain")
 	public String  adminMain() {
 		return "admin/sneat/main";
+	}
+	
+	@GetMapping("/adtable")
+	public String  adminTable() {
+		return "admin/sneat/table";
+	}
+	
+	@GetMapping("/admenu")
+	public String  adminMenu() {
+		return "admin/sneat/menu";
+	}
+	
+	@GetMapping("/adnavbar")
+	public String  adminNavbar() {
+		return "admin/sneat/navbar";
 	}
 	
 }
