@@ -86,59 +86,61 @@
 					            <div class="modal-content">
 					               <form id="add-event">
 					                  <div class="modal-body">
-					                     <h4 class="text-blue h4 mb-10">Add Event Detail</h4>
+					                     <div style="text-align: center;">
+					                     	<h4 class="text-blue h4 mb-10"><b>오늘의 운동 & 식단 추가하기</b></h4>
+					                     </div>
 					                     <div class="form-group">
-					                        <label>Date</label>
+					                        <label>날짜</label>
 					                        <input type='text' class="datetimepicker form-control" name="edate">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Class name</label>
+					                        <label>수업명</label>
 					                        <input type="text" class="form-control" name="ename">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>After Class! How do you feel?</label>
+					                        <label>수업 후 간단한 소감을 적어볼까요?</label>
 					                        <textarea class="form-control" name="edesc"></textarea>
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Breakfast</label>
+					                        <label>아침</label>
 					                        <input type="text" class="form-control" name="ename">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Lunch</label>
+					                        <label>점심</label>
 					                        <input type="text" class="form-control" name="ename">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Dinner</label>
+					                        <label>저녁</label>
 					                        <input type="text" class="form-control" name="ename">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Snack</label>
+					                        <label>간식</label>
 					                        <input type="text" class="form-control" name="ename">
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Event Color</label>
+					                        <label>아이콘 색상 선택</label>
 					                        <select class="form-control" name="ecolor">
-					                           <option value="fc-bg-default">fc-bg-default</option>
-					                           <option value="fc-bg-blue">fc-bg-blue</option>
-					                           <option value="fc-bg-lightgreen">fc-bg-lightgreen</option>
-					                           <option value="fc-bg-pinkred">fc-bg-pinkred</option>
-					                           <option value="fc-bg-deepskyblue">fc-bg-deepskyblue</option>
+					                           <option value="fc-bg-default">기본</option>
+					                           <option value="fc-bg-blue">파란색</option>
+					                           <option value="fc-bg-lightgreen">연두색</option>
+					                           <option value="fc-bg-pinkred">분홍색</option>
+					                           <option value="fc-bg-deepskyblue">하늘색</option>
 					                        </select>
 					                     </div>
 					                     <div class="form-group">
-					                        <label>Event Icon</label>
+					                        <label>아이콘 모양 선택</label>
 					                        <select class="form-control" name="eicon">
-					                           <option value="circle">circle</option>
-					                           <option value="cog">cog</option>
-					                           <option value="group">group</option>
-					                           <option value="suitcase">suitcase</option>
-					                           <option value="calendar">calendar</option>
+					                           <option value="circle">원</option>
+					                           <option value="cog">톱니바퀴</option>
+					                           <option value="group">그룹</option>
+					                           <option value="suitcase">서류가방</option>
+					                           <option value="calendar">캘린더</option>
 					                        </select>
 					                     </div>
 					                  </div>
 					                  <div class="modal-footer">
-					                     <button type="submit" class="btn btn-primary" >Save</button>
-					                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					                     <button type="submit" class="btn btn-primary" >저장</button>
+					                     <button type="button" class="btn btn-primary" data-dismiss="modal">닫기</button>
 									</div>
 								</form>
 							</div>

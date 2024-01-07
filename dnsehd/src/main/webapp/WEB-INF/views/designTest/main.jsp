@@ -99,17 +99,16 @@
         <div class="row">
             <div class="col-lg-4 col-md-4">
                 <div class="section-title">
-                    <h4>Best classes</h4>
+                    <h4>이달의 인기 수업</h4>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
                 <ul class="filter__controls">
                     <li class="active" data-filter="*">전체 수업</li>
-                    <li data-filter=".women">PT</li>
-                    <li data-filter=".men">스쿼시</li>
-                    <li data-filter=".kid">필라테스</li>
-                    <li data-filter=".accessories">요가</li>
-                    <li data-filter=".cosmetic">헬스</li>
+                    <li data-filter=".women">개인 레슨</li>
+                    <li data-filter=".men">그룹 수업</li>
+                    <li data-filter=".kid">시설 이용</li>
+                    <li data-filter=".accessories">할인혜택 수업</li>
                 </ul>
             </div>
         </div>

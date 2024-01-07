@@ -52,106 +52,55 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="shop__sidebar">
-                        <div class="sidebar__categories">
+                        <div class="sidebar__sizes">
                             <div class="section-title">
-                                <h4>Categories</h4>
+                                <h4>수업 방식</h4>
                             </div>
-                            <div class="categories__accordion">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="card">
-                                        <div class="card-heading active">
-                                            <a data-toggle="collapse" data-target="#collapseOne">개인 수업</a>
-                                        </div>
-                                        <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">PT</a></li>
-                                                    <li><a href="#">스쿼시</a></li>
-                                                    <li><a href="#">필라테스</a></li>
-                                                    <li><a href="#">요가</a></li>
-                                                    <li><a href="#">헬스</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseTwo">소그룹 수업</a>
-                                        </div>
-                                        <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseThree">단체 수업</a>
-                                        </div>
-                                        <div id="collapseThree" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseFour">개인 자유이용권</a>
-                                        </div>
-                                        <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseFive">할인 중인 수업</a>
-                                        </div>
-                                        <div id="collapseFive" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="size__list">
+                                <label for="전체수업">
+                                    전체 수업
+                                    <input type="checkbox" id="전체수업">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="개인레슨">
+                                    개인 레슨
+                                    <input type="checkbox" id="개인레슨">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="그룹수업">
+                                    그룹 수업
+                                    <input type="checkbox" id="그룹수업">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="시설이용">
+                                    시설 이용
+                                    <input type="checkbox" id="시설이용">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="할인혜택 수업">
+                                    할인혜택 수업
+                                    <input type="checkbox" id="할인혜택 수업">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
+                        </div>
+                        <div class="sidebar__sizes">
+                            <div class="section-title">
+                                <h4>원하는 수업 검색</h4>
+                            </div>
+			                <div class="footer__newslatter">
+			                    <form action="#">
+			                        <input type="text" class="form-control" name="searchClass" id="searchClass" placeholder="찾으시는 수업명" aria-describedby="textHelp" required/>
+			                    </form>
+			                </div>
                         </div>
                         <div class="sidebar__filter">
                             <div class="section-title">
-                                <h4>Class by price</h4>
+                                <h4>수강료 범위 선택</h4>
                             </div>
                             <div class="filter-range-wrap">
                                 <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
-                                data-min="50000" data-max="1000000"></div>
+                                data-min="100" data-max="200"></div>
                                 <div class="range-slider">
                                     <div class="price-input">
                                         <p>Price:</p>
@@ -160,11 +109,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">Filter</a>
+                            <a href="#">필터</a>
                         </div>
                         <div class="sidebar__sizes">
                             <div class="section-title">
-                                <h4>Class by location</h4>
+                                <h4>운동 시설 위치</h4>
                             </div>
                             <div class="size__list">
                                 <label for="서울">

@@ -52,207 +52,103 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="shop__sidebar">
-                        <div class="sidebar__categories">
+                        <div class="sidebar__sizes">
                             <div class="section-title">
-                                <h4>Categories</h4>
+                                <h4>수업 방식</h4>
                             </div>
-                            <div class="categories__accordion">
-                                <div class="accordion" id="accordionExample">
-                                    <div class="card">
-                                        <div class="card-heading active">
-                                            <a data-toggle="collapse" data-target="#collapseOne">Women</a>
-                                        </div>
-                                        <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseTwo">Men</a>
-                                        </div>
-                                        <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseThree">Kids</a>
-                                        </div>
-                                        <div id="collapseThree" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseFour">Accessories</a>
-                                        </div>
-                                        <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-heading">
-                                            <a data-toggle="collapse" data-target="#collapseFive">Cosmetic</a>
-                                        </div>
-                                        <div id="collapseFive" class="collapse" data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li><a href="#">Coats</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                    <li><a href="#">Dresses</a></li>
-                                                    <li><a href="#">Shirts</a></li>
-                                                    <li><a href="#">T-shirts</a></li>
-                                                    <li><a href="#">Jeans</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="size__list">
+                                <label for="전체수업">
+                                    전체 수업
+                                    <input type="checkbox" id="전체수업">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="개인레슨">
+                                    개인 레슨
+                                    <input type="checkbox" id="개인레슨">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="그룹수업">
+                                    그룹 수업
+                                    <input type="checkbox" id="그룹수업">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="시설이용">
+                                    시설 이용
+                                    <input type="checkbox" id="시설이용">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label for="할인혜택 수업">
+                                    할인혜택 수업
+                                    <input type="checkbox" id="할인혜택 수업">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
+                        </div>
+                        <div class="sidebar__sizes">
+                            <div class="section-title">
+                                <h4>원하는 강사명 검색</h4>
+                            </div>
+			                <div class="footer__newslatter">
+			                    <form action="#">
+			                        <input type="text" class="form-control" name="searchTeacher" id="searchTeacher" placeholder="찾으시는 강사명" aria-describedby="textHelp" required/>
+			                    </form>
+			                </div>
                         </div>
                         <div class="sidebar__filter">
                             <div class="section-title">
-                                <h4>Shop by price</h4>
+                                <h4>강사 연령대 선택</h4>
                             </div>
                             <div class="filter-range-wrap">
                                 <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
-                                data-min="33" data-max="99"></div>
+                                data-min="20" data-max="60"></div>
                                 <div class="range-slider">
                                     <div class="price-input">
-                                        <p>Price:</p>
+                                        <p>Age:</p>
                                         <input type="text" id="minamount">
                                         <input type="text" id="maxamount">
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">Filter</a>
+                            <a href="#">필터</a>
                         </div>
                         <div class="sidebar__sizes">
                             <div class="section-title">
-                                <h4>Shop by size</h4>
+                                <h4>강사 활동 지역</h4>
                             </div>
                             <div class="size__list">
-                                <label for="xxs">
-                                    xxs
-                                    <input type="checkbox" id="xxs">
+                                <label for="서울">
+                                    서울
+                                    <input type="checkbox" id="서울">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="xs">
-                                    xs
-                                    <input type="checkbox" id="xs">
+                                <label for="경기도">
+                                    경기도
+                                    <input type="checkbox" id="경기도">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="xss">
-                                    xs-s
-                                    <input type="checkbox" id="xss">
+                                <label for="강원도">
+                                    강원도
+                                    <input type="checkbox" id="강원도">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="s">
-                                    s
-                                    <input type="checkbox" id="s">
+                                <label for="충청도">
+                                    충청도
+                                    <input type="checkbox" id="충청도">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="m">
-                                    m
-                                    <input type="checkbox" id="m">
+                                <label for="전라도">
+                                    전라도
+                                    <input type="checkbox" id="전라도">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="ml">
-                                    m-l
-                                    <input type="checkbox" id="ml">
+                                <label for="경상도">
+                                    경상도
+                                    <input type="checkbox" id="경상도">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label for="l">
-                                    l
-                                    <input type="checkbox" id="l">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="xl">
-                                    xl
-                                    <input type="checkbox" id="xl">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="sidebar__color">
-                            <div class="section-title">
-                                <h4>Shop by size</h4>
-                            </div>
-                            <div class="size__list color__list">
-                                <label for="black">
-                                    Blacks
-                                    <input type="checkbox" id="black">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="whites">
-                                    Whites
-                                    <input type="checkbox" id="whites">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="reds">
-                                    Reds
-                                    <input type="checkbox" id="reds">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="greys">
-                                    Greys
-                                    <input type="checkbox" id="greys">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="blues">
-                                    Blues
-                                    <input type="checkbox" id="blues">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="beige">
-                                    Beige Tones
-                                    <input type="checkbox" id="beige">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="greens">
-                                    Greens
-                                    <input type="checkbox" id="greens">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="yellows">
-                                    Yellows
-                                    <input type="checkbox" id="yellows">
+                                <label for="제주도">
+                                    제주도
+                                    <input type="checkbox" id="제주도">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
