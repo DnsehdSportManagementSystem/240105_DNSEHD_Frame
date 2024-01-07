@@ -83,7 +83,12 @@
                             <li><a href="class">수업조회</a></li>
                             <li><a href="teacher">강사조회</a></li>
                             <li><a href="calendar">일정관리</a></li>
-                            <li><a href="review">수업후기</a></li>
+                            <li>수업후기
+                            	<ul class="dropdown">
+                            		<li><a href="addReview">수업후기등록</a></li>
+                            		<li><a href="review">전체수업후기</a></li>
+                            	</ul>
+                            </li>
                             <li>공지 & FAQ
                                 <ul class="dropdown">
                         		    <li><a href="notice">공지사항</a></li>

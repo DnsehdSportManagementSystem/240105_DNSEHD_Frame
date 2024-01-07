@@ -159,7 +159,12 @@ public class TestController {
 		return "designTest/mypage";
 	}	
 	
-	// admin
+	@GetMapping("/addReview")
+	public String addReview() {
+		return "designTest/addReview";
+	}
+	
+	// 4. admin view와 맵핑
 	// ..을 고쳐서 사용
 //	@GetMapping("/ad..")
 //	public String  admin..() {
