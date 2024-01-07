@@ -67,59 +67,35 @@
                         </div>
                         <div class="blog__details__desc">
                             <p>맨날 야식으로 치킨 먹고, 족발 먹다가 살쪘는데 필라테스 다니면서 건강이 달라지네요.
-                            	Afashion season can be defined as much by the people on the catwalk as it can by the
-                                clothes they are wearing. This time around, a key moment came at the end of Marc Jacobs’
-                                New York show, when an almost makeup-free Christy Turlington made a rare return to the
-                                catwalk, aged 50 (she also stars, with the designer himself, in the label’s AW ad
-                            campaign), where the average catwalk model is around 18.</p>
-                            <p>A few days later, Simone Rocha arguably upped the ante. The 32-year-old’s show – in part
-                                inspired by Louise Bourgeois, who lived until she was 98 – featured models in their 30s
-                            and 40s, including cult favourite Jeny Howorth and actor Chloë Sevigny.</p>
-                        </div>
-                        <div class="blog__details__quote">
-                            <div class="icon"><i class="fa fa-quote-left"></i></div>
-                            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <div class="blog__details__desc">
-                            <p>Occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate.</p>
-                        </div>
-                        <div class="blog__details__tags">
-                            <a href="#">Fashion</a>
-                            <a href="#">Street style</a>
-                            <a href="#">Diversity</a>
-                            <a href="#">Beauty</a>
+                            	몸의 자세가 매우 좋아져요. 어깨를 쭉 피려고 의식해도, 
+                            	근육이 없으면 굽어지게 되잖아요. 자세가 굉장히 좋아졌습니다.</p>
+                            <p>그리고 트레이너 분들도 이 사이트에서 많이 검색해봤는데
+                                친절하고 좋으세요.</p>
                         </div>
                         <div class="blog__details__btns">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="blog__details__btn__item">
-                                        <h6><a href="#"><i class="fa fa-angle-left"></i> Previous posts</a></h6>
+                                        <h6><a href="#"><i class="fa fa-angle-left"></i> 이전 게시물</a></h6>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="blog__details__btn__item blog__details__btn__item--next">
-                                        <h6><a href="#">Next posts <i class="fa fa-angle-right"></i></a></h6>
+                                        <h6><a href="#">다음 게시물 <i class="fa fa-angle-right"></i></a></h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="blog__details__comment">
-                            <h5>3 Comment</h5>
-                            <a href="#" class="leave-btn">Leave a comment</a>
+                            <h5>리뷰에 대해 궁금한 점이 있으신가요?</h5>
+                            <a href="#" class="leave-btn">댓글을 남겨보세요.</a>
                             <div class="blog__comment__item">
                                 <div class="blog__comment__item__pic">
-                                    <img src="/ashion/img/blog/details/comment-1.jpg" alt="">
+                                    <i class="fa fa-regular fa-user" style="font-size: 46px;"></i>
                                 </div>
                                 <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Duis voluptatum. Id vis consequat consetetur dissentiet, ceteros commune perpetua
-                                    mei et. Simul viderer facilisis egimus tractatos splendi.</p>
+                                    <h6>유저1</h6>
+                                    <p>여기 시설 좋은가요?</p>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
                                         <li><i class="fa fa-heart-o"></i> 12</li>
@@ -129,12 +105,12 @@
                             </div>
                             <div class="blog__comment__item blog__comment__item--reply">
                                 <div class="blog__comment__item__pic">
-                                    <img src="/ashion/img/blog/details/comment-2.jpg" alt="">
+                                    <i class="fa fa-regular fa-user" style="font-size: 46px;"></i>
                                 </div>
                                 <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Consequat consetetur dissentiet, ceteros commune perpetua mei et. Simul viderer
-                                    facilisis egimus ulla mcorper.</p>
+                                    <h6>유저2</h6>
+                                    <p>아침 일찍 수업 듣고 회사갑니다.
+                                    시설 괜찮고, 강사분 친절하세요ㅎㅎ</p>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
                                         <li><i class="fa fa-heart-o"></i> 12</li>
@@ -144,12 +120,12 @@
                             </div>
                             <div class="blog__comment__item">
                                 <div class="blog__comment__item__pic">
-                                    <img src="/ashion/img/blog/details/comment-3.jpg" alt="">
+                                    <i class="fa fa-regular fa-user" style="font-size: 46px;"></i>
                                 </div>
                                 <div class="blog__comment__item__text">
-                                    <h6>Brandon Kelley</h6>
-                                    <p>Duis voluptatum. Id vis consequat consetetur dissentiet, ceteros commune perpetua
-                                    mei et. Simul viderer facilisis egimus tractatos splendi.</p>
+                                    <h6>유저3</h6>
+                                    <p>지인 추천 받아서 갔는데, 생각보다 그냥 그렇습니다.
+                                    수강 등록한 것만 듣고 마무리 예정..</p>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Seb 17, 2019</li>
                                         <li><i class="fa fa-heart-o"></i> 12</li>
@@ -164,7 +140,7 @@
                     <div class="blog__sidebar">
                         <div class="blog__sidebar__item">
                             <div class="section-title">
-                                <h4>Categories</h4>
+                                <h4>수강한 수업 정보</h4>
                             </div>
                             <ul>
                                 <li><a href="#">All <span>(250)</span></a></li>
@@ -176,14 +152,14 @@
                         </div>
                         <div class="blog__sidebar__item">
                             <div class="section-title">
-                                <h4>Feature posts</h4>
+                                <h4>베스트 리뷰</h4>
                             </div>
                             <a href="#" class="blog__feature__item">
                                 <div class="blog__feature__item__pic">
                                     <img src="/ashion/img/blog/sidebar/fp-1.jpg" alt="">
                                 </div>
                                 <div class="blog__feature__item__text">
-                                    <h6>Amf Cannes Red Carpet Celebrities Kend...</h6>
+                                    <h6>강남역 필라테스 수업 듣고 체중 5Kg 감량!</h6>
                                     <span>Seb 17, 2019</span>
                                 </div>
                             </a>
@@ -192,7 +168,7 @@
                                     <img src="/ashion/img/blog/sidebar/fp-2.jpg" alt="">
                                 </div>
                                 <div class="blog__feature__item__text">
-                                    <h6>Amf Cannes Red Carpet Celebrities Kend...</h6>
+                                    <h6>식단 관리 효과 쏠쏠하네요ㅋㅋ</h6>
                                     <span>Seb 17, 2019</span>
                                 </div>
                             </a>
@@ -201,21 +177,10 @@
                                     <img src="/ashion/img/blog/sidebar/fp-3.jpg" alt="">
                                 </div>
                                 <div class="blog__feature__item__text">
-                                    <h6>Amf Cannes Red Carpet Celebrities Kend...</h6>
+                                    <h6>운동 부족 직장인, 이제 운동합니다!!</h6>
                                     <span>Seb 17, 2019</span>
                                 </div>
                             </a>
-                        </div>
-                        <div class="blog__sidebar__item">
-                            <div class="section-title">
-                                <h4>Tags cloud</h4>
-                            </div>
-                            <div class="blog__sidebar__tags">
-                                <a href="#">Fashion</a>
-                                <a href="#">Street style</a>
-                                <a href="#">Diversity</a>
-                                <a href="#">Beauty</a>
-                            </div>
                         </div>
                     </div>
                 </div>
