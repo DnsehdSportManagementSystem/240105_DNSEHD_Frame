@@ -144,8 +144,8 @@
                             </div>
                             <ul>
                                 <li><a href="#">수업명 <span>단체 필라테스 레슨</span></a></li>
+                                <li><a href="#">강사명 <span>기보배</span></a></li>
                                 <li><a href="#">수강료 <span>40만원/월</span></a></li>
-                                <li><a href="#">수업 내용 <span>수준별 필라테스 레슨을 통해 근력을 향상합니다.</span></a></li>
                             </ul>
                         </div>
                         <div class="blog__sidebar__item">
