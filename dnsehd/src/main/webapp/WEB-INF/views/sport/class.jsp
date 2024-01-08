@@ -111,48 +111,6 @@
                             </div>
                             <a href="#">필터</a>
                         </div>
-                        <div class="sidebar__sizes">
-                            <div class="section-title">
-                                <h4>운동 시설 위치</h4>
-                            </div>
-                            <div class="size__list">
-                                <label for="서울">
-                                    서울
-                                    <input type="checkbox" id="서울">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="경기도">
-                                    경기도
-                                    <input type="checkbox" id="경기도">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="강원도">
-                                    강원도
-                                    <input type="checkbox" id="강원도">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="충청도">
-                                    충청도
-                                    <input type="checkbox" id="충청도">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="전라도">
-                                    전라도
-                                    <input type="checkbox" id="전라도">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="경상도">
-                                    경상도
-                                    <input type="checkbox" id="경상도">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label for="제주도">
-                                    제주도
-                                    <input type="checkbox" id="제주도">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9">
