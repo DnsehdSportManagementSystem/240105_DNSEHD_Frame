@@ -40,59 +40,40 @@
     <!-- Footer Section Begin -->
 	<footer class="footer">
 	    <div class="container">
+			<div class="checkout__form">
+			    <div class="col-lg-14 mx-auto text-center">
+			        <h5></h5>
+			    </div>
+			</div>
 	        <div class="row">
 	            <div class="col-lg-4 col-md-6 col-sm-7">
 	                <div class="footer__about">
 	                    <div class="footer__logo">
-	                        <a href="./index.html"><img src="/addedImg/dnsehd_small_logo.png" alt=""></a>
+	                        <a href="main"><img src="/addedImg/dnsehd_small_logo.png" alt=""></a>
 	                    </div>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-	                    cilisis.</p>
-	                    <div class="footer__payment">
-	                        <a href="#"><img src="/ashion/img/payment/payment-1.png" alt=""></a>
-	                        <a href="#"><img src="/ashion/img/payment/payment-2.png" alt=""></a>
-	                        <a href="#"><img src="/ashion/img/payment/payment-3.png" alt=""></a>
-	                        <a href="#"><img src="/ashion/img/payment/payment-4.png" alt=""></a>
-	                        <a href="#"><img src="/ashion/img/payment/payment-5.png" alt=""></a>
-	                    </div>
+	                    <p>Physical fitness is not only one of the most important keys to a healthy body,
+	                    it is the basis of dynamic and creative intellectual activiy.</p>
 	                </div>
 	            </div>
-	            <div class="col-lg-2 col-md-3 col-sm-5">
-	                <div class="footer__widget">
+	            <div class="col-lg-2 col-md-3 col-sm-5 offset-lg-4">
+	                <div class="footer__widget text-right">
 	                    <h6>Quick links</h6>
 	                    <ul>
-	                        <li><a href="#">About</a></li>
-	                        <li><a href="#">Blogs</a></li>
-	                        <li><a href="#">Contact</a></li>
-	                        <li><a href="faq">FAQ</a></li>
+	                        <li><a href="main">메인 화면</a></li>
+	                        <li><a href="class">수업 조회</a></li>
+	                        <li><a href="teacher">강사 조회</a></li>
 	                    </ul>
 	                </div>
 	            </div>
 	            <div class="col-lg-2 col-md-3 col-sm-4">
-	                <div class="footer__widget">
-	                    <h6>Account</h6>
+	                <div class="footer__widget text-right">
+	                    <h6>Communication</h6>
 	                    <ul>
-	                        <li><a href="#">My Account</a></li>
-	                        <li><a href="#">Orders Tracking</a></li>
-	                        <li><a href="#">Checkout</a></li>
-	                        <li><a href="#">Wishlist</a></li>
+	                        <li><a href="review">수업 후기</a></li>
+	                        <li><a href="addReview">수업 후기 등록</a></li>
+	                        <li><a href="notice">공지사항</a></li>
+	                        <li><a href="faq">자주 묻는 질문</a></li>
 	                    </ul>
-	                </div>
-	            </div>
-	            <div class="col-lg-4 col-md-8 col-sm-8">
-	                <div class="footer__newslatter">
-	                    <h6>NEWSLETTER</h6>
-	                    <form action="#">
-	                        <input type="text" placeholder="Email">
-	                        <button type="submit" class="site-btn">Subscribe</button>
-	                    </form>
-	                    <div class="footer__social">
-	                        <a href="#"><i class="fa fa-facebook"></i></a>
-	                        <a href="#"><i class="fa fa-twitter"></i></a>
-	                        <a href="#"><i class="fa fa-youtube-play"></i></a>
-	                        <a href="#"><i class="fa fa-instagram"></i></a>
-	                        <a href="#"><i class="fa fa-pinterest"></i></a>
-	                    </div>
 	                </div>
 	            </div>
 	        </div>
@@ -108,17 +89,6 @@
 	    </div>
 	</footer>
 	<!-- Footer Section End -->
-	
-	<!-- Search Begin -->
-	<div class="search-model">
-	    <div class="h-100 d-flex align-items-center justify-content-center">
-	        <div class="search-close-switch">+</div>
-	        <form class="search-model-form">
-	            <input type="text" id="search-input" placeholder="Search here.....">
-	        </form>
-	    </div>
-	</div>
-	<!-- Search End -->
 	
 	<!-- Js Plugins -->
 	<script src="/ashion/js/jquery-3.3.1.min.js"></script>

@@ -136,7 +136,7 @@
     <div class="mb-15"></div>
     <!-- sbadminPro fluid layout End -->     
 
-	<div class="mb-15"></div>
+	<div class="mb-40"></div>
 			        
 	<!-- footer section -->
 	<jsp:include page="../footer/footer.jsp"></jsp:include>
