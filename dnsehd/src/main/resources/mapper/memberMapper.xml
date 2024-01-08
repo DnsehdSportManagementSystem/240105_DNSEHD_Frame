@@ -21,8 +21,8 @@
 		)
 		VALUE (
 			#{memberId},
-			#{memberPw},
 			#{memberNm},
+			#{memberPw},
 			#{sex},
 			#{dateBirth},
 			#{hp},
