@@ -29,7 +29,7 @@
 
 <body>
 	<!-- header section -->
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="../header/header.jsp"></jsp:include>
     
     <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
@@ -180,7 +180,7 @@
     <!-- Product Details Section End -->
 
 	<!-- footer section -->
-	<jsp:include page="footer.jsp"></jsp:include>
+	<jsp:include page="../footer/footer.jsp"></jsp:include>
 </body>
 
 </html>
