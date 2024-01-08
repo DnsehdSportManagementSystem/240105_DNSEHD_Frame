@@ -66,10 +66,7 @@
 
   <body>
     <!-- Layout wrapper -->
-    <div class="layout-wrapper layout-content-navbar layout-without-menu">
-      <div class="layout-container">
-        <!-- Layout container -->
-        <div class="layout-page">
+    
           <!-- Navbar -->
 
           <nav
@@ -77,32 +74,64 @@
             id="layout-navbar"
           >
             <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-              <!-- Search -->
-              <div class="navbar-nav align-items-center">
-                <div class="nav-item d-flex align-items-center">
-                  <i class="bx bx-search fs-4 lh-0"></i>
-                  <input
-                    type="text"
-                    class="form-control border-0 shadow-none"
-                    placeholder="Search..."
-                    aria-label="Search..."
-                  />
-                </div>
-              </div>
-              <!-- /Search -->
-
+              
+            <ul class="menu-inner py-1">
+	            <!-- main -->
+	            <li class="menu-item">
+	              <a href="admain" class="menu-link">
+	                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+	                 <div data-i18n="Analytics">Main</div>
+	              </a>
+	            </li>
+	            <!-- Tables -->
+	            <li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<i class="menu-icon tf-icons bx bx-table"></i>
+                		<div data-i18n="Tables">Tables</div>
+              		</a>
+            	</li>
+            </ul>
+              
+              
+				
               <ul class="navbar-nav flex-row align-items-center ms-auto">
                 <!-- Place this tag where you want the button to render. -->
-                <li class="nav-item lh-1 me-3">
-                  <a
-                    class="github-button"
-                    href="https://github.com/themeselection/sneat-html-admin-template-free"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-                    >Star</a
-                  >
+                <li class="nav-item lh-1 me-3 navbar-dropdown dropdown-user dropdown">
+                   
+                  <div class=" col-sm-6 col-12">
+                      <div class="d-flex">
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-icon rounded-pill dropdown-toggle hide-arrow"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <i class="tf-icons bx bx-bell"></i>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+								<div class="alert alert-primary alert-dismissible" role="alert">
+                        			This is a primary dismissible alert — check it out!
+                        			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      			</div>
+                            </li>
+                            <li>
+								<div class="alert alert-primary alert-dismissible" role="alert">
+                        			This is a primary dismissible alert — check it out!
+                        			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      			</div>
+                            </li>
+                            <li>
+								<div class="alert alert-primary alert-dismissible" role="alert">
+                        			This is a primary dismissible alert — check it out!
+                        			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      			</div>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
                 </li>
 
                 <!-- User -->
@@ -156,7 +185,7 @@
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
+                      <a class="dropdown-item" href="adlogin">
                         <i class="bx bx-power-off me-2"></i>
                         <span class="align-middle">Log Out</span>
                       </a>
@@ -172,62 +201,7 @@
 
           <!-- Content wrapper -->
           <div class="content-wrapper">
-            <!-- Content -->
-
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <!-- Layout Demo -->
-              <div class="layout-demo-wrapper">
-                <div class="layout-demo-placeholder">
-                  <img
-                    src="/admin/sneat/assets/img/layouts/layout-without-menu-light.png"
-                    class="img-fluid"
-                    alt="Layout without menu"
-                    data-app-light-img="layouts/layout-without-menu-light.png"
-                    data-app-dark-img="layouts/layout-without-menu-dark.png"
-                  />
-                </div>
-                <div class="layout-demo-info">
-                  <h4>Layout without Menu (Navigation)</h4>
-                  <button class="btn btn-primary" type="button" onclick="history.back()">Go Back</button>
-                </div>
-              </div>
-              <!--/ Layout Demo -->
-            </div>
-            <!-- / Content -->
-
-            <!-- Footer -->
-            <footer class="content-footer footer bg-footer-theme">
-              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                <div class="mb-2 mb-md-0">
-                  ©
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
-                  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                </div>
-                <div>
-                  <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                  <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                  <a
-                    href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Documentation</a
-                  >
-
-                  <a
-                    href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Support</a
-                  >
-                </div>
-              </div>
-            </footer>
-            <!-- / Footer -->
-
+           
             <div class="content-backdrop fade"></div>
           </div>
           <!-- Content wrapper -->
@@ -237,14 +211,6 @@
     </div>
     <!-- / Layout wrapper -->
 
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->

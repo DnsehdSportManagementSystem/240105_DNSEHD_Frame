@@ -176,14 +176,9 @@ public class TestController {
 		return "admin/sneat/table";
 	}
 	
-	@GetMapping("/admenu")
-	public String  adminMenu() {
-		return "admin/sneat/menu";
-	}
-	
-	@GetMapping("/adnavbar")
-	public String  adminNavbar() {
-		return "admin/sneat/navbar";
+	@GetMapping("/adlogin")
+	public String  adminlogin() {
+		return "admin/sneat/login";
 	}
 	
 }
