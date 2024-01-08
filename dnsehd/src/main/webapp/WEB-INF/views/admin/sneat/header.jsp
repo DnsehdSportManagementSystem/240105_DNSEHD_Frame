@@ -77,17 +77,50 @@
               
             <ul class="menu-inner py-1">
 	            <!-- main -->
-	            <li class="menu-item">
+	            <li class="menu-item px-3">
 	              <a href="admain" class="menu-link">
-	                <i class="menu-icon tf-icons bx bx-home-circle"></i>
-	                 <div data-i18n="Analytics">Main</div>
+	                 <div>메인</div>
 	              </a>
 	            </li>
 	            <!-- Tables -->
 	            <li class="menu-item px-3">
+              		<a href="admember" class="menu-link">
+                		<div>회원관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adclass" class="menu-link">
+                		<div>수업관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
               		<a href="adtable" class="menu-link">
-                		<i class="menu-icon tf-icons bx bx-table"></i>
-                		<div data-i18n="Tables">Tables</div>
+                		<div>강사관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<div>수업후기관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<div>이벤트관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<div>예약관리</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<div>공지사항</div>
+              		</a>
+            	</li>
+            	<li class="menu-item px-3">
+              		<a href="adtable" class="menu-link">
+                		<div>FAQ</div>
               		</a>
             	</li>
             </ul>

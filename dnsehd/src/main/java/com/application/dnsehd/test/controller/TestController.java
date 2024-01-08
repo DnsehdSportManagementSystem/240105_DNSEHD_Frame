@@ -179,14 +179,19 @@ public class TestController {
 		return "admin/sneat/main";
 	}
 	
-	@GetMapping("/adtable")
-	public String  adminTable() {
-		return "admin/sneat/table";
+	@GetMapping("/admember")
+	public String  adminMember() {
+		return "admin/sneat/member";
 	}
 	
 	@GetMapping("/adlogin")
-	public String  adminlogin() {
+	public String  adminLogin() {
 		return "admin/sneat/login";
+	}
+	
+	@GetMapping("/adclass")
+	public String  adminClass() {
+		return "admin/sneat/class";
 	}
 	
 }
