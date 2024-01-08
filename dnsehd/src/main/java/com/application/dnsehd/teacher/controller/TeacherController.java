@@ -9,12 +9,12 @@ public class TeacherController {
 	
 	@GetMapping("/teacher")
 	public String teacher() {
-		return "teacher/teacher";
+		return "user/teacher/teacher";
 	}	
 
 	@GetMapping("/teacherDetail")
 	public String teacherDetail() {
-		return "teacher/teacherDetail";
+		return "user/teacher/teacherDetail";
 	}	
 	
 }

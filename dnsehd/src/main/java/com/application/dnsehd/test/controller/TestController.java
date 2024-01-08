@@ -92,12 +92,12 @@ public class TestController {
 	/*
 	@GetMapping("/register")
 	public String register() {
-		return "member/register";
+		return "user/member/register";
 	}	
 	
 	@GetMapping("/login")
 	public String login() {
-		return "member/login";
+		return "user/member/login";
 	}	
 
 	@GetMapping("/main")

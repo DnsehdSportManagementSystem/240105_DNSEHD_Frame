@@ -9,11 +9,11 @@ public class SportController {
 
 	@GetMapping("/class")
 	public String classList() {
-		return "sport/class";
+		return "user/sport/class";
 	}	
 
 	@GetMapping("/classDetail")
 	public String classDetail() {
-		return "sport/classDetail";
+		return "user/sport/classDetail";
 	}	
 }

@@ -9,7 +9,7 @@ public class FaqController {
 	
 	@GetMapping("/faq")
 	public String faq() {
-		return "faq/faq";
+		return "user/faq/faq";
 	}	
 	
 }
