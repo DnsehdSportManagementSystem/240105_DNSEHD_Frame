@@ -70,7 +70,7 @@ $().ready(function() {
 	    $.ajax({
 	    	
 	       type : "post",
-	       url : "/member/validId",
+	       url : "/validId",
 	       data : {"memberId" : memberId},
 	       success : function(isValidId) {
 	    	   
@@ -93,7 +93,7 @@ $().ready(function() {
 	
 	$("#confirmPasswd").blur(function(){
 		
-		let passwd = $("#passwd").val();
+		let passwd = $("#memberPw").val();
 		let confirmPasswd = $("#confirmPasswd").val();
 		
 		if (passwd == confirmPasswd) {
@@ -132,89 +132,89 @@ function checkFormValidation() {
 </head>
 
 <body>
-  <!--  Body Wrapper -->
-  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-    data-sidebar-position="fixed" data-header-position="fixed">
-    <div
-      class="position-relative overflow-hidden min-vh-100 d-flex align-items-center justify-content-center">
-      <div class="d-flex align-items-center justify-content-center w-100">
-        <div class="row justify-content-center w-100">
-          <div class="col-md-8 col-lg-6 col-xxl-3">
-            <div class="card mb-0">
-              <div class="card-body">
-                <a href="main" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="/addedImg/dnsehd_small_logo.png" width="180" alt="">
-                </a>
-                <p class="text-center">Your Healthy Exercise</p>
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">아이디</label>
-                  	<div class="d-flex">
-	                    <input type="text" class="form-control" name="memberId" id="memberId" placeholder="아이디" aria-describedby="textHelp" required maxlength="20" style="width: 200px;"/>&emsp;
-	                    <input type="button" class="btn btn-primary w-60 py-8 fs-4 rounded-2" id="isValidId" value="중복확인" />
-                    </div>
-                    <span id="isValidIdMsg"></span>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">비밀번호</label>
-                    <input type="password" class="form-control" name="passwd" id="passwd" placeholder="비밀번호" required/>
-                  </div>
-                  <div class="mb-4">
-                    <label for="exampleInputPassword1" class="form-label">비밀번호 확인</label>
-                    <input type="password" class="form-control" id="confirmPasswd" placeholder="비밀번호확인" required/>&emsp;
-                    <span id="isValidPasswdMsg"></span>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">회원 이름</label>
-                    <input type="text" class="form-control" name="memberNm" id="memberNm" placeholder="이름" aria-describedby="textHelp" required/>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">성별</label><br> 
-                    <input type="radio" name="sex" id="sex" value="m" aria-describedby="textHelp" checked="checked" /> 남성&emsp;&emsp;&emsp;
-                    <input type="radio" name="sex" id="sex" value="w" aria-describedby="textHelp" /> 여성&emsp;&emsp;&emsp;
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">생년월일</label>
-                    <input type="text" class="form-control" name="birthAt" id="birthAt" placeholder="yyyy-MM-dd" aria-describedby="textHelp" required/>
-                  </div>			
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">핸드폰 번호</label>
-                    <input type="text" class="form-control" name="hp" id="hp" placeholder="010-0000-0000" aria-describedby="textHelp" required/>
-                    <input type="checkbox" id="smsConsent" name="smsConsent" value="y" checked/>
-                    스프링에서 발송하는 SMS 소식을 수신합니다.
-                  </div>			
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">이메일</label>
-                    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required/>
-                    <input type="checkbox" id="emailConsent" name="emailConsent" value="y" checked/>
-                    스프링에서 발송하는 E-mail을 수신합니다.
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">주소</label>
-                    <div class="d-flex">
-	                    <input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="우편번호 입력" aria-describedby="textHelp" required style="width: 200px;"/>&emsp;
-	                    <input type="button" class="btn btn-primary w-30 py-8 fs-4 rounded-2" onclick="javascript:execDaumPostcode()" value="검색">
-                    </div>
-                    <br><br>
-                    도로명 주소 : <input type="text" class="form-control" name="roadAddress" id="roadAddress"> <br>
-                    지번 주소 : <input type="text" class="form-control" name="jibunAddress" id="jibunAddress"> <br>
-                    나머지 주소 : <input type="text" class="form-control" name="otherAddress" id="otherAddress"> <br>
-                  </div>
-                  <a href="main" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">회원가입</a>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <p class="fs-4 mb-0 fw-bold">이미 아이디가 있으신가요?</p>
-                    <a class="text-primary fw-bold ms-2" href="login">로그인</a>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="/modernize/assets/libs/jquery/dist/jquery.min.js"></script>
-  <script src="/modernize/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	  <!--  Body Wrapper -->
+	  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+	    data-sidebar-position="fixed" data-header-position="fixed">
+	    <div
+	      class="position-relative overflow-hidden min-vh-100 d-flex align-items-center justify-content-center">
+	      <div class="d-flex align-items-center justify-content-center w-100">
+	        <div class="row justify-content-center w-100">
+	          <div class="col-md-8 col-lg-6 col-xxl-3">
+	            <div class="card mb-0">
+	              <div class="card-body">
+	                <a href="main" class="text-nowrap logo-img text-center d-block py-3 w-100">
+	                  <img src="/addedImg/dnsehd_small_logo.png" width="180" alt="">
+	                </a>
+	                <p class="text-center">Your Healthy Exercise</p>
+	                <form action="/register" onsubmit="return checkFormValidation();" method="post" enctype="multipart/form-data">
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">아이디</label>
+	                  	<div class="d-flex">
+		                    <input type="text" class="form-control" name="memberId" id="memberId" placeholder="아이디" aria-describedby="textHelp" required maxlength="20" style="width: 200px;"/>&emsp;
+		                    <input type="button" class="btn btn-primary w-60 py-8 fs-4 rounded-2" id="isValidId" value="중복확인" />
+	                    </div>
+	                 	    <span id="isValidIdMsg"></span>
+	                  </div>
+	                  <div class="mb-3">
+	                    <label for="exampleInputPassword1" class="form-label">비밀번호</label>
+	                    <input type="password" class="form-control" name="memberPw" id="memberPw" placeholder="비밀번호" required/>
+	                  </div>
+	                  <div class="mb-4">
+	                    <label for="exampleInputPassword1" class="form-label">비밀번호 확인</label>
+	                    <input type="password" class="form-control" id="confirmPasswd" placeholder="비밀번호확인" required/>&emsp;
+	                    <span id="isValidPasswdMsg"></span>
+	                  </div>
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">회원 이름</label>
+	                    <input type="text" class="form-control" name="memberNm" id="memberNm" placeholder="이름" aria-describedby="textHelp" required/>
+	                  </div>
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">성별</label><br> 
+	                    <input type="radio" name="sex" id="sex" value="m" aria-describedby="textHelp" checked="checked" /> 남성&emsp;&emsp;&emsp;
+	                    <input type="radio" name="sex" id="sex" value="w" aria-describedby="textHelp" /> 여성&emsp;&emsp;&emsp;
+	                  </div>
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">생년월일</label>
+	                    <input type="text" class="form-control" name="dateBirth" id="dateBirth" placeholder="yyyy-MM-dd" aria-describedby="textHelp" required/>
+	                  </div>			
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">핸드폰 번호</label>
+	                    <input type="text" class="form-control" name="hp" id="hp" placeholder="010-0000-0000" aria-describedby="textHelp" required/>
+	                    <input type="checkbox" id="smsConsent" name="smsConsent" value="y" checked/>
+	                    스프링에서 발송하는 SMS 소식을 수신합니다.
+	                  </div>			
+	                  <div class="mb-3">
+	                    <label for="exampleInputEmail1" class="form-label">이메일</label>
+	                    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required/>
+	                    <input type="checkbox" id="emailConsent" name="emailConsent" value="y" checked/>
+	                    스프링에서 발송하는 E-mail을 수신합니다.
+	                  </div>
+	                  <div class="mb-3">
+	                    <label for="exampleInputtext1" class="form-label">주소</label>
+	                    <div class="d-flex">
+		                    <input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="우편번호 입력" aria-describedby="textHelp" required style="width: 200px;"/>&emsp;
+		                    <input type="button" class="btn btn-primary w-30 py-8 fs-4 rounded-2" onclick="javascript:execDaumPostcode()" value="검색">
+	                    </div>
+	                    <br><br>
+	                    도로명 주소 : <input type="text" class="form-control" name="roadAddress" id="roadAddress"> <br>
+	                    지번 주소 : <input type="text" class="form-control" name="jibunAddress" id="jibunAddress"> <br>
+	                    나머지 주소 : <input type="text" class="form-control" name="otherAddress" id="otherAddress"> <br>
+	                  </div>
+	                  <a href="main"><input type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" value="회원가입"></a>
+	                  <div class="d-flex align-items-center justify-content-center">
+	                    <p class="fs-4 mb-0 fw-bold">이미 아이디가 있으신가요?</p>
+	                    <a class="text-primary fw-bold ms-2" href="login">로그인</a>
+	                  </div>
+	                </form>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <script src="/modernize/assets/libs/jquery/dist/jquery.min.js"></script>
+	  <script src="/modernize/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -101,8 +102,17 @@
                 <div class="col-lg-3">
                     <div class="header__right">
                         <div class="header__right__auth">
-                            <a href="login">로그인</a>
-                            <a href="register">회원가입</a>
+                        	<c:choose>
+                        		<c:when test="${sessionScope.memberId eq null}">
+		                            <a href="login">로그인</a>
+        		                    <a href="register">회원가입</a>
+		                        </c:when>
+                        		<c:otherwise>
+		                            <a href="#">수정하기</a>
+        		                    <a href="#">탈퇴하기</a>
+        		                    <a href="#">로그아웃</a>
+		                        </c:otherwise>
+                            </c:choose>
                         </div>
                         <ul class="header__right__widget">
                             <li><a href="#"><i class="fa fa-solid fa-bell"></i>
