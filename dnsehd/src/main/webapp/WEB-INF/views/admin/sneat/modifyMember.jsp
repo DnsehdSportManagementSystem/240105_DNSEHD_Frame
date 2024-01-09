@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+
+<!-- beautify ignore:start -->
 <html
   lang="en"
   class="light-style layout-menu-fixed"
@@ -15,7 +17,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Account settings - Account | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>회원수정</title>
 
     <meta name="description" content="" />
 
@@ -45,6 +47,15 @@
 
     <!-- Helpers -->
     <script src="/admin/sneat/assets/vendor/js/helpers.js"></script>
+    <style type="text/css">
+		.layout-menu-fixed .layout-navbar-full .layout-menu,
+		.layout-page {
+		  padding-top: 0px !important;
+		}
+		.content-wrapper {
+		  padding-bottom: 0px !important;
+		}
+	</style>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
@@ -52,7 +63,10 @@
   </head>
 
   <body>
+    <!-- Layout wrapper -->
+
         <jsp:include page="header.jsp"></jsp:include>
+
           <!-- Content wrapper -->
           <div class="content-wrapper">
             <!-- Content -->
@@ -61,28 +75,28 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="card mb-4">
-                    <h5 class="card-header">Profile Details</h5>
+                    <h2 class="card-header">회원수정</h2>
+                    <!-- 회원수정 -->
                     <hr class="my-0" />
                     <div class="card-body">
                       <form id="formAccountSettings" method="POST" onsubmit="return false">
                         <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="firstName" class="form-label">First Name</label>
+                            <label for="memberId" class="form-label">회원 아이디</label>
                             <input
                               class="form-control"
                               type="text"
                               id="firstName"
                               name="firstName"
-                              value="John"
                               autofocus
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="lastName" class="form-label">Last Name</label>
+                            <label for="lastName" class="form-label">회원 비밀번호</label>
                             <input class="form-control" type="text" name="lastName" id="lastName" value="Doe" />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="email" class="form-label">E-mail</label>
+                            <label for="email" class="form-label">회원 이메일</label>
                             <input
                               class="form-control"
                               type="text"
@@ -93,7 +107,7 @@
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="organization" class="form-label">Organization</label>
+                            <label for="organization" class="form-label">회원 이름</label>
                             <input
                               type="text"
                               class="form-control"
@@ -103,7 +117,7 @@
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            <label class="form-label" for="phoneNumber">회원 전화번호</label>
                             <div class="input-group input-group-merge">
                               <span class="input-group-text">US (+1)</span>
                               <input
@@ -245,32 +259,19 @@
                 </div>
               </div>
             </div>
-            <!-- / Content -->
+				
+            <hr class="my-5" />
 
-            <!-- Footer -->
-            
-            <!-- / Footer -->
-
-            <div class="content-backdrop fade"></div>
+            <!-- footer section -->
+			<jsp:include page="footer.jsp"></jsp:include>
           </div>
           <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
-      </div>
 
       <!-- Overlay -->
       <div class="layout-overlay layout-menu-toggle"></div>
-    </div>
     <!-- / Layout wrapper -->
-
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
@@ -288,7 +289,6 @@
     <script src="/admin/sneat/assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="/admin/sneat/assets/js/pages-account-settings-account.js"></script>
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>

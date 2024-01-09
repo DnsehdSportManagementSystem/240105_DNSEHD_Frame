@@ -290,27 +290,13 @@
 
             <!-- footer section -->
 			<jsp:include page="footer.jsp"></jsp:include>
-			<button 
-                      type="button" 
-                      class="btn btn-primary text-nowrap" 
-                      data-bs-toggle="popover" 
-                      data-bs-offset="0,14" 
-                      data-bs-placement="right" 
-                      data-bs-html="true" 
-                      data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div class='d-flex justify-content-between'><button type='button' class='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' class='btn btn-sm btn-primary'>Read More</button></div>" title="" data-bs-original-title="Popover Title" aria-describedby="popover110314">
-                        <span class="tf-icons bx bx-trash"></span>&nbsp; 삭제
-                      </button>
-
-            <div class="content-backdrop fade"></div>
           </div>
           <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
-      </div>
 
       <!-- Overlay -->
       <div class="layout-overlay layout-menu-toggle"></div>
-    </div>
     <!-- / Layout wrapper -->
 
     <!-- Core JS -->
