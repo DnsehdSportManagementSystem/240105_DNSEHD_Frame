@@ -20,12 +20,12 @@ public class MemberController {
 	
 	@GetMapping("/main")
 	public ModelAndView main() {
-		return new ModelAndView("member/main");
+		return new ModelAndView("user/member/main");
 	}	
 	
 	@GetMapping("/register")
 	public ModelAndView register() {
-		return new ModelAndView("member/register");
+		return new ModelAndView("user/member/register");
 	}	
 	
 	@PostMapping("/register")
@@ -42,12 +42,17 @@ public class MemberController {
 
 	@GetMapping("/login")
 	public ModelAndView login() {
-		return new ModelAndView("member/login");
+		return new ModelAndView("user/member/login");
 	}	
 	
 	@GetMapping("/mypage")
 	public String mypage() {
-		return "mypage/mypage";
+		return "user/mypage/mypage";
 	}	
+	
+	@GetMapping("/removeMember")
+	public ModelAndView remove() {
+		return new ModelAndView("user/member/removeMember");
+	}
 	
 }

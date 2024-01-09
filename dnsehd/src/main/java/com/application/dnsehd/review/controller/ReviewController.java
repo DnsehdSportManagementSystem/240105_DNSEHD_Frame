@@ -9,17 +9,17 @@ public class ReviewController {
 
 	@GetMapping("/addReview")
 	public String addReview() {
-		return "review/addReview";
+		return "user/review/addReview";
 	}	
 	
 	@GetMapping("/review")
 	public String review() {
-		return "review/review";
+		return "user/review/review";
 	}		
 	
 	@GetMapping("/reviewDetail")
 	public String reviewDetail() {
-		return "review/reviewDetail";
+		return "user/review/reviewDetail";
 	}			
 	
 }

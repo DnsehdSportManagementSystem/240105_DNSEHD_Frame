@@ -9,7 +9,7 @@ public class ScheduleController {
 
 	@GetMapping("/calendar")
 	public String schedule() {
-		return "schedule/calendar";
+		return "user/schedule/calendar";
 	}	
 	
 }
