@@ -181,13 +181,13 @@ function checkFormValidation() {
 	                    <label for="exampleInputtext1" class="form-label">핸드폰 번호</label>
 	                    <input type="text" class="form-control" name="hp" id="hp" placeholder="010-0000-0000" aria-describedby="textHelp" required/>
 	                    <input type="checkbox" id="smsConsent" name="smsConsent" value="y" checked/>
-	                    스프링에서 발송하는 SMS 소식을 수신합니다.
+	                    DNSEHD에서 발송하는 SMS 소식을 수신합니다.
 	                  </div>			
 	                  <div class="mb-3">
 	                    <label for="exampleInputEmail1" class="form-label">이메일</label>
 	                    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required/>
 	                    <input type="checkbox" id="emailConsent" name="emailConsent" value="y" checked/>
-	                    스프링에서 발송하는 E-mail을 수신합니다.
+	                    DNSEHD에서 발송하는 E-mail을 수신합니다.
 	                  </div>
 	                  <div class="mb-3">
 	                    <label for="exampleInputtext1" class="form-label">주소</label>

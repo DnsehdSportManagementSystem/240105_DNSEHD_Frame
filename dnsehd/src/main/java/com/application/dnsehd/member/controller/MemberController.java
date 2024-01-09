@@ -50,4 +50,9 @@ public class MemberController {
 		return "user/mypage/mypage";
 	}	
 	
+	@GetMapping("/removeMember")
+	public ModelAndView remove() {
+		return new ModelAndView("user/member/removeMember");
+	}
+	
 }
