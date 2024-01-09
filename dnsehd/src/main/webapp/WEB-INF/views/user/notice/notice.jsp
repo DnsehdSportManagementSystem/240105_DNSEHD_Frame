@@ -119,7 +119,6 @@
                                     </td>
                                     <td class="notice__date">2024-01-04</td>
                                 </tr>
-
                             </tbody>
                         </table>
                     </div>

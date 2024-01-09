@@ -216,14 +216,79 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <h5>예약한 수업 조회</h5>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-6 col-sm-6">
-                                <div class="checkout__form__input">
-                                    <p>회원 아이디 <span>*</span></p>
-                                    <input type="text" id="memberId" name="memberId" placeholder="userEx">
-                                </div>
-                            </div>
-                        </div>
+                        <section class="shop__cart__table" style="text-align: center;">
+		                    <div class="shop__cart__table">
+		                        <table>
+		                            <thead>
+		                                <tr>
+		                                    <th>수업명</th>
+		                                    <th>수강료</th>
+		                                    <th>예약일</th>
+		                                    <th>예약 취소</th>
+		                                    <th></th>
+		                                </tr>
+		                            </thead>
+		                            <tbody>
+		                                <tr>
+		                                    <td class="notice__no">근력 향상 1:1 PT</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>35만원/월</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">근력 향상 1:1 PT</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>35만원/월</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">근력 향상 1:1 PT</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>35만원/월</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">근력 향상 1:1 PT</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>35만원/월</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                            </tbody>
+		                        </table>
+		                    </div>
+				    	</section>
                      </div>
                 </div>
             </form>
@@ -237,20 +302,79 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <h5>내가 쓴 후기 조회</h5>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="checkout__form__input">
-                                    <p>회원 아이디 <span>*</span></p>
-                                    <input type="text" id="memberId" name="memberId" placeholder="userEx">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="checkout__form__input">
-                                    <p>회원 비밀번호 <span>*</span></p>
-                                    <input type="text" id="memberPw" name="memberPw" placeholder="passwordEx">
-                                </div>
-                            </div>
-                        </div>
+                        <section class="shop__cart__table" style="text-align: center;">
+		                    <div class="shop__cart__table">
+		                        <table>
+		                            <thead>
+		                                <tr>
+		                                    <th>후기 제목</th>
+		                                    <th>후기 평점</th>
+		                                    <th>후기 작성일</th>
+		                                    <th>후기 삭제</th>
+		                                    <th></th>
+		                                </tr>
+		                            </thead>
+		                            <tbody>
+		                                <tr>
+		                                    <td class="notice__no" >강남역 필라테스 수업 듣고 체중 5Kg 감량!</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>5점</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">강남역 필라테스 수업 듣고 체중 5Kg 감량!</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>5점</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">강남역 필라테스 수업 듣고 체중 5Kg 감량!</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>5점</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                                <tr>
+		                                    <td class="notice__no">강남역 필라테스 수업 듣고 체중 5Kg 감량!</td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__title">
+		                                            <h6>5점</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__item">
+		                                        <div class="notice__item__writer">
+		                                            <h6>2024-01-01</h6>
+		                                        </div>
+		                                    </td>
+		                                    <td class="notice__date" style="text-align: center;"><i class="fa fa-solid fa-ban"></i></td>
+		                                </tr>
+		                            </tbody>
+		                        </table>
+		                    </div>
+				    	</section>
                      </div>
                 </div>
             </form>
