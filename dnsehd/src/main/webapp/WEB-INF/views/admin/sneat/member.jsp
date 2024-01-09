@@ -47,6 +47,15 @@
 
     <!-- Helpers -->
     <script src="/admin/sneat/assets/vendor/js/helpers.js"></script>
+    <style type="text/css">
+		.layout-menu-fixed .layout-navbar-full .layout-menu,
+		.layout-page {
+		  padding-top: 0px !important;
+		}
+		.content-wrapper {
+		  padding-bottom: 0px !important;
+		}
+	</style>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
@@ -117,17 +126,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                        	<div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admodifyMember"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                    		</div>
                         </td>
                       </tr>
                       <tr>
@@ -136,17 +142,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          	<div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -155,17 +158,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          	<div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -174,17 +174,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          	<div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -193,17 +190,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          	<div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -212,17 +206,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          <div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -231,17 +222,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          <div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -250,17 +238,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          <div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -269,17 +254,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          <div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                       <tr>
@@ -288,17 +270,14 @@
                         <td>2000-01-01</td>
                         <td>user@gmail.com</td>
                         <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i>수정</a>
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i>삭제</a>
-                            </div>
-                          </div>
+                          <div>
+                            	<button type="button" class="btn btn-outline-primary">
+                              	<a href="admain"><span class="tf-icons bx bx-edit-alt"></span>&nbsp; 수정</a>
+                            	</button>
+                            	<button type="button" class="btn btn-outline-secondary">
+                             	<a href="admain"><span class="tf-icons bx bx-trash"></span>&nbsp; 삭제</a>
+                            	</button>
+                      		</div>
                         </td>
                       </tr>
                     </tbody>
@@ -311,6 +290,16 @@
 
             <!-- footer section -->
 			<jsp:include page="footer.jsp"></jsp:include>
+			<button 
+                      type="button" 
+                      class="btn btn-primary text-nowrap" 
+                      data-bs-toggle="popover" 
+                      data-bs-offset="0,14" 
+                      data-bs-placement="right" 
+                      data-bs-html="true" 
+                      data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div class='d-flex justify-content-between'><button type='button' class='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' class='btn btn-sm btn-primary'>Read More</button></div>" title="" data-bs-original-title="Popover Title" aria-describedby="popover110314">
+                        <span class="tf-icons bx bx-trash"></span>&nbsp; 삭제
+                      </button>
 
             <div class="content-backdrop fade"></div>
           </div>

@@ -194,4 +194,15 @@ public class TestController {
 		return "admin/sneat/class";
 	}
 	
+	@GetMapping("/adtest")
+	public String  admintest() {
+		return "admin/sneat/test";
+	}
+	
+	@GetMapping("/admodifyMember")
+	public String  adminmodifyMember() {
+		return "admin/sneat/modifyMember";
+	}
+	
+	
 }
